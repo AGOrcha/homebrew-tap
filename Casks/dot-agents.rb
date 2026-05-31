@@ -4,12 +4,12 @@ cask "dot-agents" do
 
   on_macos do
     on_intel do
-      sha256 "625779245ee6f9856776a59ab5f274fa77f31d8d0f237f3164f9667591e4f854"
+      sha256 "5f2c6d3f63ef06f235a1f9bcdf540b465b8ddb5a777631cbab5b5c8f06ed48f7"
       url "https://github.com/NikashPrakash/dot-agents/releases/download/v#{version}/dot-agents_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/NikashPrakash/dot-agents/"
     end
     on_arm do
-      sha256 "05dcdc40ee256bdee31628226fa70b11c73be481103eea579c41f32d44f9edf2"
+      sha256 "eab0bdfe0af505292a1d8994877c0aa32ba82d1729dfb1939b187a677ad22809"
       url "https://github.com/NikashPrakash/dot-agents/releases/download/v#{version}/dot-agents_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/NikashPrakash/dot-agents/"
     end
@@ -17,12 +17,12 @@ cask "dot-agents" do
 
   on_linux do
     on_intel do
-      sha256 "1aab1b619cc7cf4d92677fd0d66d306a578d7787a8d90dae518a7938b988bc34"
+      sha256 "c084120e0fcd538326e012bce7b51969f1d1c4aef73cb4085c83023dad9148a3"
       url "https://github.com/NikashPrakash/dot-agents/releases/download/v#{version}/dot-agents_#{version}_linux_amd64.tar.gz",
         verified: "github.com/NikashPrakash/dot-agents/"
     end
     on_arm do
-      sha256 "c798b1cb01ebd82cb938fe43fd4d8014993ae311abce29287938960bce052084"
+      sha256 "bdcdb5cc33112865a9bb13b3feac43d85b3ee494adea15db8a97d13cccc47111"
       url "https://github.com/NikashPrakash/dot-agents/releases/download/v#{version}/dot-agents_#{version}_linux_arm64.tar.gz",
         verified: "github.com/NikashPrakash/dot-agents/"
     end
